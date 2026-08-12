@@ -151,7 +151,7 @@ const ArticlesPage: React.FC<PageProps<ArticlesPageData>> = ({ data }) => {
     tags: node.frontmatter.tags || [],
     readingTime: node.frontmatter.readingTime,
     featured: node.frontmatter.featured || false,
-    author: "Sai Nimmagadda",
+    author: "Sudar Blogger",
   }));
 
   // Get unique categories and tags
@@ -223,7 +223,7 @@ const ArticlesPage: React.FC<PageProps<ArticlesPageData>> = ({ data }) => {
           <div className="mb-8">
             <h1 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">
               <span className="text-sm italic text-accent">(mostly)</span>{" "}
-              Technical Articles
+              Tulisan Sudar
             </h1>
             <p className="text-lg text-muted-foreground">
               Deep dives into healthcare technology, scalable systems, and
