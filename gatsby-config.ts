@@ -21,8 +21,8 @@ interface FeedQueryResult {
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Sudar Blogger`,
-    siteUrl: `https://s11a.com`,
-    description: `Full-stack engineer focused on healthcare, developer experience, and scalable systems.`,
+    siteUrl: `https://www.sudarblogger.com`,
+    description: `Catatan Harian Sudarmanto dengan topik Notes, Travelling, Pengalaman, Kegiatan dan Masih Banyak Lagi.`,
     author: `@FunSaized`,
   },
   plugins: [
