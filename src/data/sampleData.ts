@@ -172,4 +172,7 @@ export const categoryIcons: Record<string, string> = {
   Database: "💾",
   Cloud: "☁️",
   Security: "🔒",
+  Travelling: "✈️",
+  Kegiatan: "🥋", 
+  Pengalaman: "💻",
 };
