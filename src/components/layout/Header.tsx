@@ -39,7 +39,7 @@ const CloseIcon = () => (
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Articles", href: "/articles" },
+  { name: "Blog", href: "/articles" },
   { name: "About", href: "/about" },
 ];
 
@@ -69,7 +69,7 @@ export function Header() {
             height={32}
             className="w-8 h-8"
           />
-          <span>s11a</span>
+          <span>Sudar</span>
         </Link>
 
         {/* Desktop Navigation */}
