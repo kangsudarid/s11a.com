@@ -20,7 +20,7 @@ interface FeedQueryResult {
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Sai Nimmagadda`,
+    title: `Sudar Blogger`,
     siteUrl: `https://s11a.com`,
     description: `Full-stack engineer focused on healthcare, developer experience, and scalable systems.`,
     author: `@FunSaized`,
@@ -85,7 +85,7 @@ const config: GatsbyConfig = {
         feeds: [
           {
             output: "/rss.xml",
-            title: "Sai Nimmagadda",
+            title: "Sudar Blogger",
             query: `
               {
                 allMdx(
