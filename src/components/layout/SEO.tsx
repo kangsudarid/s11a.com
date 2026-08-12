@@ -15,8 +15,8 @@ const defaultMeta = {
   title: "Sudar Blogger",
   description:
     "Catatan Blog Sudarmanto, dimana tempat berbagi pengalaman, tutorial, esai dan travelling.",
-  siteUrl: "https://s11a.com",
-  image: "/images/face.png",
+  siteUrl: "https://www.sudarblogger.com",
+  image: "/images/favicon.png",
   twitterUsername: "@FunSaized",
 };
 
