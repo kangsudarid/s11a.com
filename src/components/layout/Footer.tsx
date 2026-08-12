@@ -64,7 +64,7 @@ export function Footer() {
         <div className="flex flex-col items-center space-y-4 md:flex-row md:justify-between md:space-y-0">
           {/* Copyright */}
           <div className="text-center text-sm text-muted-foreground md:text-left">
-            © 2025 Sai Nimmagadda. All rights reserved.
+            © 2020 - 2026 Sudar Code. All rights reserved.
           </div>
 
           {/* Social Links */}
@@ -88,7 +88,7 @@ export function Footer() {
         <div className="mt-6 border-t pt-6 text-center text-xs text-muted-foreground">
           <p>
             Built with <span className="text-red-500">♥</span> using Gatsby,
-            TypeScript, Tailwind CSS, and shadcn/ui
+            TypeScript, Tailwind CSS, and Cloudflare Pages.
           </p>
         </div>
       </div>
