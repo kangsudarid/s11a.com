@@ -77,8 +77,8 @@ export const query = graphql`
 
 export const Head: HeadFC = () => (
   <SEO
-    title="Full-Stack Engineer • Healthcare Tech"
-    description="Full-stack engineer focused on healthcare, developer experience, and scalable systems. Building technology that improves patient outcomes."
+    title="Catatan Harian Sudarmanto"
+    description="Blog yang berisi tentang pengalaman, travelling, tutorial, dan esai menganai diri saya."
     pathname="/"
   />
 );
