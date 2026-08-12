@@ -63,8 +63,8 @@ export function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2 text-xl font-bold">
           <img
-            src="/images/face.png"
-            alt=""
+            src="/images/favicon.png"
+            alt="Sudar Blogger"
             width={32}
             height={32}
             className="w-8 h-8"
