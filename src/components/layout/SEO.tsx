@@ -12,9 +12,9 @@ export interface SEOProps {
 }
 
 const defaultMeta = {
-  title: "Sai Nimmagadda - Full-Stack Engineer",
+  title: "Sudar Blogger",
   description:
-    "Full-stack engineer focused on healthcare, developer experience, and scalable systems.",
+    "Catatan Blog Sudarmanto, dimana tempat berbagi pengalaman, tutorial, esai dan travelling.",
   siteUrl: "https://s11a.com",
   image: "/images/face.png",
   twitterUsername: "@FunSaized",
@@ -51,7 +51,7 @@ export function SEO({
     url: seo.url,
     author: {
       "@type": "Person",
-      name: "Sai Nimmagadda",
+      name: "Sudar Blogger",
       url: defaultMeta.siteUrl,
       sameAs: [
         "https://github.com/funsaized",
@@ -61,7 +61,7 @@ export function SEO({
     },
     publisher: {
       "@type": "Person",
-      name: "Sai Nimmagadda",
+      name: "Sudar Blogger",
       url: defaultMeta.siteUrl,
     },
     ...(article &&
