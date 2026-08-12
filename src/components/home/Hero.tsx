@@ -76,7 +76,7 @@ export function Hero() {
           {/* Main Hero Content */}
           <div className="mb-8 relative z-10">
             <TextType
-              text={["Hi, I'm Sai,"]}
+              text={["Hi, I'm Sudar,"]}
               as="h1"
               className="mb-6 text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl"
               textColors={[
@@ -91,14 +91,11 @@ export function Hero() {
             />
 
             <p className="mb-4 text-xl md:text-2xl text-muted-foreground">
-              Engineer • Healthcare • AI • Lifestyle
+              Blogger • Traveller • AI • Lifestyle
             </p>
 
             <p className="mx-auto max-w-2xl text-lg text-muted-foreground mb-8">
-              I&apos;m a full stack software engineer focused on using tech to
-              find novel solutions. I build things, contribute to open source,
-              and love a good challenge. Passionate about creating technology
-              that improves outcomes and enhances developer experience.
+              Perkenalkan Nama saya sudarmanto, atau orang memanggil saya sudar saya tinggal di pelosok desa di daerah lamongan yaitu Desa Kedungmentawar Kecamatan Ngimbang, Kabupaten Lamongan.
             </p>
           </div>
 
