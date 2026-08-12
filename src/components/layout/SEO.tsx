@@ -89,7 +89,7 @@ export function SEO({
       <meta property="og:image" content={seo.image} />
       <meta property="og:url" content={seo.url} />
       <meta property="og:type" content={article ? "article" : "website"} />
-      <meta property="og:site_name" content="Sai Nimmagadda" />
+      <meta property="og:site_name" content="Sudar Blogger" />
       <meta property="og:image:width" content="320" />
       <meta property="og:image:height" content="320" />
       {article && datePublished && (
@@ -111,12 +111,12 @@ export function SEO({
 
       {/* Additional meta tags */}
       <meta name="robots" content="index, follow" />
-      <meta name="author" content="Sai Nimmagadda" />
+      <meta name="author" content="Sudar Blogger" />
       <link rel="canonical" href={seo.url} />
       <link
         rel="alternate"
         type="application/rss+xml"
-        title="Sai Nimmagadda"
+        title="Sudar Blogger"
         href={`${defaultMeta.siteUrl}/rss.xml`}
       />
 
