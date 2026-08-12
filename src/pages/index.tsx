@@ -39,8 +39,8 @@ const IndexPage: React.FC<PageProps<IndexPageData>> = ({ data }) => {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
             <ArticleList
-              title="Blog"
-              subtitle="Guides, references, and tutorials."
+              title="Tulisan Terbaru"
+              subtitle="Guides, references, and tutorials and Notes."
               articles={articles}
               viewAllLink="/articles"
               viewAllText="See All"
