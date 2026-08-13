@@ -14,7 +14,7 @@ module.exports = {
             maxWidth: "720px",
             color: theme("colors.foreground"),
             lineHeight: "1.7",
-            fontSize: "18px",
+            fontSize: "12px",
             "h1, h2, h3, h4": {
               fontWeight: "600",
               color: theme("colors.foreground"),
