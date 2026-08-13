@@ -98,7 +98,7 @@ const ArticleTemplate: React.FC<ArticleTemplateProps> = ({
   const { frontmatter } = mdx;
   const categoryIcon = categoryIcons[frontmatter.category] || "📝";
 
-  const articleUrl = `https://s11a.com${location.pathname}`;
+  const articleUrl = `https://www.sudarblogger.com${location.pathname}`;
 
   return (
     <Layout>
