@@ -13,10 +13,10 @@ module.exports = {
           css: {
             maxWidth: "720px",
             color: theme("colors.foreground"),
-            lineHeight: "1.7",
-            fontSize: "12px",
+            lineHeight: "1.5",
+            fontSize: "15px",
             "h1, h2, h3, h4": {
-              fontWeight: "600",
+              fontWeight: "400",
               color: theme("colors.foreground"),
             },
             h1: {
