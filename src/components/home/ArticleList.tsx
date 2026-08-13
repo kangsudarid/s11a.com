@@ -28,7 +28,7 @@ export function ArticleList({
   const visibleArticles = articles.slice(0, limit);
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
+    return date.toLocaleDateString("id-ID", {
       month: "long",
       year: "numeric",
     });
@@ -37,7 +37,7 @@ export function ArticleList({
   return (
     <div className="flex-1">
       <div className="flex items-baseline justify-between mb-2">
-        <h2 className="text-3xl font-bold">{title}</h2>
+        <h2 className="text-2xl font-bold">{title}</h2>
         <Link
           to={viewAllLink}
           className="text-sm text-muted-foreground hover:text-primary transition-colors"
