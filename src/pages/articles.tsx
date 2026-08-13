@@ -226,8 +226,7 @@ const ArticlesPage: React.FC<PageProps<ArticlesPageData>> = ({ data }) => {
               Tulisan Sudar
             </h1>
             <p className="text-lg text-muted-foreground">
-              Deep dives into healthcare technology, scalable systems, and
-              modern development practices.
+              Menulis tentang Pengalaman, Opini dan Note Personal
             </p>
           </div>
 
@@ -375,8 +374,8 @@ export const query = graphql`
 
 export const Head: HeadFC = () => (
   <SEO
-    title="Technical Articles"
-    description="Technical articles on healthcare technology, system architecture, and developer experience."
+    title="Tulisan Sudar"
+    description="Catatan Kang Sudar yang membahas tentang opini, tutorial, blogger dan pengalaman."
     pathname="/articles"
   />
 );
