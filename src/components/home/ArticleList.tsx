@@ -55,7 +55,7 @@ export function ArticleList({
               to={`/articles/${article.slug}`}
               className="flex items-baseline justify-between gap-6 px-3 py-4 rounded-lg hover:bg-muted/50 transition-colors"
             >
-              <h3 className="min-w-0 font-medium text-lg leading-snug text-primary group-hover:text-primary/80 transition-colors line-clamp-2">
+              <h3 className="min-w-0 font-medium text-base leading-snug text-primary group-hover:text-primary/80 transition-colors line-clamp-2">
                 {article.title}
               </h3>
               <time className="shrink-0 whitespace-nowrap text-sm text-muted-foreground">
