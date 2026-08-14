@@ -63,13 +63,13 @@ export function Header() {
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-2 text-xl font-bold">
           <img
-            src="/images/favicon.png"
+            src="/images/profile.png"
             alt="Sudar Blogger"
             width={32}
             height={32}
             className="w-8 h-8"
           />
-          <span>Sudar</span>
+          <span>sudar</span>
         </Link>
 
         {/* Desktop Navigation */}
