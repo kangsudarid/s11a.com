@@ -284,3 +284,104 @@ h5 code {
   font-size: 1rem;
   text-transform: uppercase;
 }
+@media screen and (min-width: 800px) {
+  p,
+  ol,
+  ul,
+  blockquote,
+  table {
+    font-size: 1.05rem;
+  }
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+li {
+  line-height: 1.6;
+  padding-bottom: 0.25rem;
+
+  p {
+    margin-top: 0;
+  }
+}
+
+ul li ul,
+ol li ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul li ul li {
+  padding: 0;
+}
+
+li::marker {
+  font-size: 1.1rem;
+  line-height: 1;
+  color: var(--color-marker);
+}
+
+#article-resume {
+  margin-top: -1.5rem;
+  max-width: 65ch;
+
+  .resume-title {
+    font-size: 1.25rem;
+    color: var(--color-text-muted);
+  }
+
+  .resume-title + p {
+    font-size: 0.95rem;
+  }
+
+  li {
+    line-height: 1.4;
+    padding-bottom: 0.5rem;
+  }
+
+  h2 {
+    font-family: var(--font-family-monospace2);
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+    color: var(--color-text-muted);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--color-border);
+
+    .anchor {
+      display: none;
+    }
+  }
+
+  h3 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.25rem;
+    font-size: 1.15rem;
+  }
+
+  h3 + p {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0 1rem;
+    margin-top: 0;
+    font-size: 1.05rem;
+
+    br {
+      display: none;
+    }
+
+    em {
+      font-style: normal;
+      font-family: var(--font-family-monospace2);
+      font-size: 0.85rem;
+      color: var(--color-text-muted);
+    }
+  }
+}
