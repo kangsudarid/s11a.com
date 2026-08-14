@@ -164,7 +164,7 @@ export { projects };
 
 // Category icons mapping
 export const categoryIcons: Record<string, string> = {
-  Backend: "🔧",
+  Tutorial: "🔧",
   Frontend: "🎨",
   Healthcare: "🏥",
   Architecture: "🏗️",
@@ -172,7 +172,7 @@ export const categoryIcons: Record<string, string> = {
   Database: "💾",
   Cloud: "☁️",
   Security: "🔒",
-  Travelling: "✈️",
-  Kegiatan: "🥋", 
-  Pengalaman: "💻",
+  Travelling: "🚧",
+  Kegiatan: "☕", 
+  Pengalaman: "🐥",
 };
