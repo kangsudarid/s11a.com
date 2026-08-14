@@ -37,7 +37,7 @@ const IndexPage: React.FC<PageProps<IndexPageData>> = ({ data }) => {
       {/* Articles Section */}
       <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-4xl">
+          <div className="mx-auto max-w-3xl">
             <ArticleList
               title="Tulisan Terbaru"
               subtitle="Guides, references, and tutorials and Notes."
