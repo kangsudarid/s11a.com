@@ -1,4 +1,4 @@
-# s11a.com - Personal Blog
+# sudarblogger.com- Personal Blog
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7221c3fe-992b-448e-ab3f-00124c3d8801/deploy-status)](https://app.netlify.com/projects/s11a/deploys)
 
