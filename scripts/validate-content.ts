@@ -26,6 +26,10 @@ const allowedCategories = new Set([
   "Security",
   "Productivity",
   "Writing",
+  "Travelling",
+  "Kegiatan",
+  "Pengalaman",
+  "Tutorial",
 ]);
 
 function findMdxFiles(directory: string): string[] {
