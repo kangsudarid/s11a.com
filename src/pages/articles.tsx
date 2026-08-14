@@ -218,14 +218,14 @@ const ArticlesPage: React.FC<PageProps<ArticlesPageData>> = ({ data }) => {
   return (
     <Layout>
       <div className="container mx-auto px-4 py-8">
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-3xl">
           {/* Page Header */}
           <div className="mb-8">
-            <h1 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">
+            <h1 className="mb-4 text-2xl font-bold tracking-tight md:text-4xl">
               <span className="text-sm italic text-accent">(mostly)</span>{" "}
               Tulisan Sudar
             </h1>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-sm text-muted-foreground">
               Menulis tentang Pengalaman, Opini dan Note Personal
             </p>
           </div>
