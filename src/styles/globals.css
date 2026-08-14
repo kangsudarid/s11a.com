@@ -137,8 +137,8 @@ pre[class*="language-"] {
   background: none;
   text-shadow: none;
   font-family:
-    ui-serif, Georgia, Cambria, 'Times New Roman',
-    Times, serif;
+    ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo,
+    monospace;
   font-size: 0.875em;
   text-align: left;
   white-space: pre;
@@ -167,8 +167,8 @@ pre[class*="language-"] {
   background: hsl(var(--code-inline-bg));
   color: hsl(var(--code-inline-color));
   font-family:
-    ui-serif, Georgia, Cambria, 'Times New Roman',
-    Times, serif;
+    ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo,
+    monospace;
   font-size: 0.85em;
   font-weight: 400;
   border: none;
